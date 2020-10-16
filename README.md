@@ -1,2 +1,1 @@
-# WORLD-COUNTRY-FACTS
-Find the most imortant facts about any country in the world
+This is the main repository for all of Web Projects With Vanilla JavaScript.
