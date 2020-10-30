@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/faacb72ed5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>FORM VALIDATION</title>
+</head>
+<body>
+  <div class="container">
+    <form id="form">
+      <h1>Registration form</h1>
+      <div class="form-item">
+        <label for="first-name">
+          First Name
+        </label>
+        <input type="text" name="first-name" id="first-name" placeholder="Enter first Name">
+        <small>Error message</small>
+      </div>
+      <div class="form-item">
+        <label for="last-name">
+          Last Name
+        </label>
+        <input type="text" name="lastname" placeholder="Enter last Name" id="last-name" >
+        <small>Error message</small>
+      </div>
+      <div class="form-item">
+        <label for="email">
+          Email
+        </label>
+        <input type="text" name="email" placeholder="Enter  Email" id="email">
+        <small>Error message</small>
+      </div>
+      <div class="form-item">
+        <label for="password">
+          Password
+        </label>
+        <input type="password" name="password" placeholder="Enter password" id="password">
+        <small>Error message</small>
+      </div>
+      <div class="form-item">
+        <label for="password-conf">
+          Confirm Password
+        </label>
+        <input type="password" name="password-conf" placeholder="Enter password again" id="password-conf">
+        <small>Error message</small>
+      </div>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </div>
+  <script src="script.js" ></script>
+</body>
+</html>
